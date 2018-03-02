@@ -1,25 +1,15 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # sass-project-app
+
+## Dependencies
+
+* ruby@2.4.0
+* rails@5.1.5
+
+## Run Application
+   ```
+   $ bundle install
+
+   $ rails s -b 0.0.0.0
+
+   $ open http://localhost:3000/
+   ```
